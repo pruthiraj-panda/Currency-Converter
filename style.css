@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(249, 190, 80);
+}
+.container{
+    width: 400px;
+    height: 500px;
+    border:none;
+    background-color:#84ebeb;
+    border-radius: 20px;
+    position: relative;
+    left: 580px;
+    top: 100px;
+}
+.header{
+   position: absolute;
+   left: 100px;
+   font-size:1.5rem;
+   font-weight: 900;
+}
+.amountTag{
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    font-size: 1rem;
+}
+.inputTag{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+img{
+    height: 40px;
+    height: 40px;
+}
+.fromPart{
+   background-color:white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left: 50px;
+    top: 250px;
+    border-radius: 5px;
+}
+.select{
+    height: 35px;
+    width: 35px;
+}
+.Topart{
+    background-color:white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left: 250px;
+    top: 250px;
+    border-radius: 5px;
+}
+.result{
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: rgb(231, 68, 68);
+    color: white;
+    border: none;
+    position: absolute;
+     left:25%;
+     top: 80%;
+}
+.fromTo{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    top: 180px;
+    left: 70px;
+    font-size: 1.5rem;
+    color:;
+}
+.resultpara{
+    width: 350px;
+    height: 50px;
+    position:absolute;
+    top: 330px;
+    left: 80px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: none;
+    font-size: 1rem;
+    color: white;
+    color: black;
+}
